@@ -1,0 +1,9 @@
+live:
+  - name: Ethereum
+    networks:
+      - name: Ropsten (Infura)
+        chainid: 3
+        id: ropsten
+        host: https://ropsten.infura.io/v3/$WEB3_INFURA_PROJECT_ID
+        explorer: https://api-ropsten.etherscan.io/$ETHERSCAN_TOKEN
+dotenv: .env
