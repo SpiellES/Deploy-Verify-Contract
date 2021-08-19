@@ -7,7 +7,7 @@ from scripts.ost import acc
 
 
 def deploy_First():
-    dev = accounts.load(acc)
+    dev = accounts.load(acc)        #private keys with "0x" at the beginning
     print(network.show_active())
 
     cont = First.deploy(
